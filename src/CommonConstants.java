@@ -10,8 +10,10 @@ public class CommonConstants {
     public static final Color TEXT_COLOR = Color.WHITE;
     public static final Color BUTTON_TEXT_COLOR = Color.BLACK;
     public static final Color BUTTON_BG_COLOR = Color.LIGHT_GRAY;
+    public static final Color TEXT_GREEN = Color.GREEN;
+    public static final Color TEXT_RED = Color.RED;
 
-    public static final Dimension FRAME_SIZE = new Dimension(540, 760);
-    public static final Dimension BUTTON_PANEL_SIZE = new Dimension(FRAME_SIZE.width, (int)(FRAME_SIZE.height * 0.42));
-    public static final Dimension RESULT_DIALOG_SIZE = new Dimension((int)(FRAME_SIZE.width/2), (int)(FRAME_SIZE.height/6));
+    public static final Dimension FRAME_SIZE = new Dimension(540, 800);
+    public static final Dimension BUTTON_PANEL_SIZE = new Dimension(FRAME_SIZE.width, (int) (FRAME_SIZE.height * 0.42));
+    public static final Dimension RESULT_DIALOG_SIZE = new Dimension((int) (FRAME_SIZE.width / 1.5), (int) (FRAME_SIZE.height / 4));
 }
